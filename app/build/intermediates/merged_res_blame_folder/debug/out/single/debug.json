@@ -1,0 +1,102 @@
+[
+    {
+        "merged": "pl.zsrdev.aiorg.app-merged_res-29:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "pl.zsrdev.aiorg.app-main-31:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "pl.zsrdev.aiorg.app-merged_res-29:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "pl.zsrdev.aiorg.app-main-31:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "pl.zsrdev.aiorg.app-merged_res-29:/layout_study_mode.xml.flat",
+        "source": "pl.zsrdev.aiorg.app-main-31:/layout/study_mode.xml"
+    },
+    {
+        "merged": "pl.zsrdev.aiorg.app-merged_res-29:/layout_activity_main.xml.flat",
+        "source": "pl.zsrdev.aiorg.app-main-31:/layout/activity_main.xml"
+    },
+    {
+        "merged": "pl.zsrdev.aiorg.app-merged_res-29:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "pl.zsrdev.aiorg.app-main-31:/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "pl.zsrdev.aiorg.app-merged_res-29:/layout_screen.xml.flat",
+        "source": "pl.zsrdev.aiorg.app-main-31:/layout/screen.xml"
+    },
+    {
+        "merged": "pl.zsrdev.aiorg.app-merged_res-29:/drawable_ic_launcher_background.xml.flat",
+        "source": "pl.zsrdev.aiorg.app-main-31:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "pl.zsrdev.aiorg.app-merged_res-29:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "pl.zsrdev.aiorg.app-main-31:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "pl.zsrdev.aiorg.app-merged_res-29:/font_fa_solid.ttf.flat",
+        "source": "pl.zsrdev.aiorg.app-main-31:/font/fa_solid.ttf"
+    },
+    {
+        "merged": "pl.zsrdev.aiorg.app-merged_res-29:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "pl.zsrdev.aiorg.app-main-31:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "pl.zsrdev.aiorg.app-merged_res-29:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "pl.zsrdev.aiorg.app-main-31:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "pl.zsrdev.aiorg.app-merged_res-29:/font_fa_regular.ttf.flat",
+        "source": "pl.zsrdev.aiorg.app-main-31:/font/fa_regular.ttf"
+    },
+    {
+        "merged": "pl.zsrdev.aiorg.app-merged_res-29:/layout_home_old.xml.flat",
+        "source": "pl.zsrdev.aiorg.app-main-31:/layout/home_old.xml"
+    },
+    {
+        "merged": "pl.zsrdev.aiorg.app-merged_res-29:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "pl.zsrdev.aiorg.app-main-31:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "pl.zsrdev.aiorg.app-merged_res-29:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "pl.zsrdev.aiorg.app-main-31:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "pl.zsrdev.aiorg.app-merged_res-29:/font_fa_brands.ttf.flat",
+        "source": "pl.zsrdev.aiorg.app-main-31:/font/fa_brands.ttf"
+    },
+    {
+        "merged": "pl.zsrdev.aiorg.app-merged_res-29:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "pl.zsrdev.aiorg.app-main-31:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "pl.zsrdev.aiorg.app-merged_res-29:/xml_data_extraction_rules.xml.flat",
+        "source": "pl.zsrdev.aiorg.app-main-31:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "pl.zsrdev.aiorg.app-merged_res-29:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "pl.zsrdev.aiorg.app-main-31:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "pl.zsrdev.aiorg.app-merged_res-29:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "pl.zsrdev.aiorg.app-main-31:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "pl.zsrdev.aiorg.app-merged_res-29:/layout_setup.xml.flat",
+        "source": "pl.zsrdev.aiorg.app-main-31:/layout/setup.xml"
+    },
+    {
+        "merged": "pl.zsrdev.aiorg.app-merged_res-29:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "pl.zsrdev.aiorg.app-main-31:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "pl.zsrdev.aiorg.app-merged_res-29:/xml_backup_rules.xml.flat",
+        "source": "pl.zsrdev.aiorg.app-main-31:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "pl.zsrdev.aiorg.app-merged_res-29:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "pl.zsrdev.aiorg.app-main-31:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "pl.zsrdev.aiorg.app-merged_res-29:/layout_home.xml.flat",
+        "source": "pl.zsrdev.aiorg.app-main-31:/layout/home.xml"
+    }
+]

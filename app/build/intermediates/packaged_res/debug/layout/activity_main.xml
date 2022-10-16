@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_height="match_parent"
+              android:layout_width="match_parent" android:orientation="vertical" android:gravity="center">
+    <TextView
+            android:text="@string/wassup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/textView35"/>
+    <Button
+            android:text="@string/vulkan_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/vulkan_login" android:theme="@style/Theme.Aiorg"/>
+    <Button
+            android:text="@string/by_hand"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/by_hand" android:theme="@style/Theme.Aiorg"/>
+    <Button
+        android:id="@+id/shut_it"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:text="cichaj"/>
+</LinearLayout>

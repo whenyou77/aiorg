@@ -1,0 +1,7 @@
+pl.zsrdev.aiorg.test.app-androidTest-0 C:\ai\aiorg\app\build\generated\res\resValues\androidTest\debug
+pl.zsrdev.aiorg.test.app-androidTest-1 C:\ai\aiorg\app\build\generated\res\rs\androidTest\debug
+pl.zsrdev.aiorg.test.app-mergeDebugAndroidTestResources-2 C:\ai\aiorg\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+pl.zsrdev.aiorg.test.app-mergeDebugAndroidTestResources-3 C:\ai\aiorg\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+pl.zsrdev.aiorg.test.app-merged_res-4 C:\ai\aiorg\app\build\intermediates\merged_res\debugAndroidTest
+pl.zsrdev.aiorg.test.app-androidTest-5 C:\ai\aiorg\app\src\androidTest\res
+pl.zsrdev.aiorg.test.app-androidTestDebug-6 C:\ai\aiorg\app\src\androidTestDebug\res

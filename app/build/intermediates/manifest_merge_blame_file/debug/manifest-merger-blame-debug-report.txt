@@ -1,0 +1,89 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="pl.zsrdev.aiorg"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+8-->C:\ai\aiorg\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->C:\ai\aiorg\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\ai\aiorg\app\src\main\AndroidManifest.xml:4:5-66
+11-->C:\ai\aiorg\app\src\main\AndroidManifest.xml:4:22-64
+12
+13    <application
+13-->C:\ai\aiorg\app\src\main\AndroidManifest.xml:6:5-30:19
+14        android:allowBackup="true"
+14-->C:\ai\aiorg\app\src\main\AndroidManifest.xml:7:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.8.0] C:\Users\Antoś\.gradle\caches\transforms-3\a33ac8c07a4ad752929ae042106ad2c9\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+16        android:dataExtractionRules="@xml/data_extraction_rules"
+16-->C:\ai\aiorg\app\src\main\AndroidManifest.xml:9:9-65
+17        android:debuggable="true"
+18        android:extractNativeLibs="false"
+19        android:fullBackupContent="@xml/backup_rules"
+19-->C:\ai\aiorg\app\src\main\AndroidManifest.xml:10:9-54
+20        android:icon="@mipmap/ic_launcher"
+20-->C:\ai\aiorg\app\src\main\AndroidManifest.xml:11:9-43
+21        android:label="@string/app_name"
+21-->C:\ai\aiorg\app\src\main\AndroidManifest.xml:12:9-41
+22        android:roundIcon="@mipmap/ic_launcher_round"
+22-->C:\ai\aiorg\app\src\main\AndroidManifest.xml:13:9-54
+23        android:supportsRtl="true"
+23-->C:\ai\aiorg\app\src\main\AndroidManifest.xml:14:9-35
+24        android:testOnly="false"
+24-->C:\ai\aiorg\app\src\main\AndroidManifest.xml:8:9-33
+25        android:theme="@style/Theme.Aiorg" >
+25-->C:\ai\aiorg\app\src\main\AndroidManifest.xml:15:9-43
+26        <activity
+26-->C:\ai\aiorg\app\src\main\AndroidManifest.xml:17:9-29:20
+27            android:name="pl.zsrdev.aiorg.MainActivity"
+27-->C:\ai\aiorg\app\src\main\AndroidManifest.xml:18:13-41
+28            android:exported="true" >
+28-->C:\ai\aiorg\app\src\main\AndroidManifest.xml:19:13-36
+29            <intent-filter>
+29-->C:\ai\aiorg\app\src\main\AndroidManifest.xml:20:13-24:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->C:\ai\aiorg\app\src\main\AndroidManifest.xml:21:17-69
+30-->C:\ai\aiorg\app\src\main\AndroidManifest.xml:21:25-66
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->C:\ai\aiorg\app\src\main\AndroidManifest.xml:23:17-77
+32-->C:\ai\aiorg\app\src\main\AndroidManifest.xml:23:27-74
+33            </intent-filter>
+34
+35            <meta-data
+35-->C:\ai\aiorg\app\src\main\AndroidManifest.xml:26:13-28:36
+36                android:name="android.app.lib_name"
+36-->C:\ai\aiorg\app\src\main\AndroidManifest.xml:27:17-52
+37                android:value="" />
+37-->C:\ai\aiorg\app\src\main\AndroidManifest.xml:28:17-33
+38        </activity>
+39
+40        <provider
+40-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Antoś\.gradle\caches\transforms-3\dabe085041defb0d85a2e2180fd4f1df\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+41            android:name="androidx.startup.InitializationProvider"
+41-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Antoś\.gradle\caches\transforms-3\dabe085041defb0d85a2e2180fd4f1df\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+42            android:authorities="pl.zsrdev.aiorg.androidx-startup"
+42-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Antoś\.gradle\caches\transforms-3\dabe085041defb0d85a2e2180fd4f1df\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+43            android:exported="false" >
+43-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Antoś\.gradle\caches\transforms-3\dabe085041defb0d85a2e2180fd4f1df\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+44            <meta-data
+44-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Antoś\.gradle\caches\transforms-3\dabe085041defb0d85a2e2180fd4f1df\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+45                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+45-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Antoś\.gradle\caches\transforms-3\dabe085041defb0d85a2e2180fd4f1df\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+46                android:value="androidx.startup" />
+46-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Antoś\.gradle\caches\transforms-3\dabe085041defb0d85a2e2180fd4f1df\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+47            <meta-data
+47-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Antoś\.gradle\caches\transforms-3\d19d32c90266045305a3449b75e23fdb\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+48                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+48-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Antoś\.gradle\caches\transforms-3\d19d32c90266045305a3449b75e23fdb\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+49                android:value="androidx.startup" />
+49-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Antoś\.gradle\caches\transforms-3\d19d32c90266045305a3449b75e23fdb\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+50        </provider>
+51    </application>
+52
+53</manifest>

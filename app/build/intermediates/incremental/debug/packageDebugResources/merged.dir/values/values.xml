@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#FF080808</color>
+    <color name="black">#FF000000</color>
+    <color name="header_background">#FF101010</color>
+    <color name="header_foreground">#FFC0C0C0</color>
+    <color name="nav_background">#FF101010</color>
+    <color name="nav_background_study">#FF00AC34</color>
+    <color name="nav_foreground">#FF808080</color>
+    <color name="nav_foreground_selected">#FF12DF67</color>
+    <color name="nav_foreground_study">#FFFFFFFF</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="add">Dodaj</string>
+    <string name="app_name">Pomoc Poszkolna</string>
+    <string name="bad_date">Zły format daty</string>
+    <string name="breaktime">Przerwa</string>
+    <string name="by_hand">Wprowadź dane ręcznie</string>
+    <string name="choose_subject">Wybierz przedmiot</string>
+    <string name="config_deleted">Usunięto pliki konfiguracyjne.</string>
+    <string name="county">Powiat (np.</string>
+    <string name="date">Data</string>
+    <string name="delete_config">Usuń pliki konfiguracyjne</string>
+    <string name="description">Opis</string>
+    <string name="exams_icon"></string>
+    <string name="exams_label">Sprawdziany</string>
+    <string name="friday">Piątek</string>
+    <string name="grade">Ocena</string>
+    <string name="grades_icon">5</string>
+    <string name="grades_label">Oceny</string>
+    <string name="login">Zaloguj</string>
+    <string name="mins">Minut</string>
+    <string name="monday">Poniedziałek</string>
+    <string name="nan">Brak</string>
+    <string name="new_exam">Nowy sprawdzian</string>
+    <string name="new_grade">Nowa ocena</string>
+    <string name="next">Dalej</string>
+    <string name="no_exams">Brak sprawdzianów</string>
+    <string name="no_grades">Brak ocen</string>
+    <string name="no_subjects">Nie wpisano żadnego przedmiotu.</string>
+    <string name="no_timetable">Nie ma nic w planie lekcji.</string>
+    <string name="not_chosen">NIE WYBRANO</string>
+    <string name="or">LUB</string>
+    <string name="pass">Hasło</string>
+    <string name="priorities">Priorytety</string>
+    <string name="settings_icon"></string>
+    <string name="settings_label">Ustawienia</string>
+    <string name="study_hours">Godziny na naukę</string>
+    <string name="study_mode">Tryb Nauki</string>
+    <string name="subject">Przedmiot</string>
+    <string name="subject_in">Ten przedmiot jest już wpisany.</string>
+    <string name="thursday">Czwartek</string>
+    <string name="timetable_icon"></string>
+    <string name="timetable_label">Plan lekcji</string>
+    <string name="tuesday">Wtorek</string>
+    <string name="vulkan_login">Zaloguj się w serwisie Vulcan</string>
+    <string name="wassup">W jaki sposób chcesz wprowadzić dane?</string>
+    <string name="wednesday">Środa</string>
+    <string name="weight">Waga</string>
+    <string name="welcome_screen">Ekran powitalny</string>
+    <style name="Theme.Aiorg" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        
+        <item name="colorPrimary">#1d2ca1</item>
+        <item name="colorPrimaryVariant">#142398</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        
+        <item name="android:colorBackground">#444444</item>
+        <item name="android:textColor">#888888</item>
+        
+        
+    </style>
+</resources>
