@@ -51,18 +51,27 @@ fun vulcan(mail: String, pass: String, symbol: String, ash: Ash)
         var startDate = nowDate.minusDays(nowDate.dayOfWeek.value.toLong() - 1)
         var endDate = startDate.plusDays(5)
 
+        var grades = sdk.getGrades(students[0].semesters[0].semesterId)
         var timetableFull = sdk.getTimetableFull(startDate, endDate)
 
+        grades.first.forEach {
+            if (!ash.userData.subjects.contains(it.subject))
+                ash.userData.subjects.add(it.subject)
+        }
         timetableFull.lessons.forEach {
             if (!ash.userData.subjects.contains(it.subject))
                 ash.userData.subjects.add(it.subject)
-
-            ash.userData.timetable[it.date.dayOfWeek.value - 1].add(
-                ash.userData.subjects.indexOf(it.subject)
-            )
         }
 
-        var grades = sdk.getGrades(students[0].semesters[0].semesterId)
+
+        timetableFull.lessons.forEach {
+            if (ash.userData.subjects.contains(it.subject))
+            {
+                ash.userData.timetable[it.date.dayOfWeek.value - 1].add(
+                    ash.userData.subjects.indexOf(it.subject)
+                )
+            }
+        }
 
         grades.first.forEach {
             var gradeIndex = -1
