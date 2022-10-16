@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">AIOrg</string>
+    <string name="wassup">W jaki sposób chcesz wprowadzić dane?</string>
+    <string name="vulkan_login">Zaloguj się w serwisie Vulcan</string>
+    <string name="by_hand">Wprowadź dane ręcznie</string>
+
+    <string name="pass">Hasło</string>
+    <string name="county">Powiat (np.</string>
+    <string name="login">Zaloguj</string>
+
+    <string name="mins">Minut</string>
+
+    <string name="timetable_icon"></string>
+    <string name="exams_icon"></string>
+    <string name="grades_icon">5</string>
+    <string name="settings_icon"></string>
+
+    <string name="study_mode">Tryb Nauki</string>
+
+    <string name="welcome_screen">Ekran powitalny</string>
+    <string name="timetable_label">Plan lekcji</string>
+    <string name="exams_label">Sprawdziany</string>
+    <string name="grades_label">Oceny</string>
+    <string name="settings_label">Ustawienia</string>
+
+    <string name="no_subjects">Nie wpisano żadnego przedmiotu.</string>
+    <string name="no_timetable">Nie ma nic w planie lekcji.</string>
+    <string name="no_exams">Brak sprawdzianów</string>
+    <string name="no_grades">Brak ocen</string>
+
+    <string name="new_exam">Nowy sprawdzian</string>
+    <string name="new_grade">Nowa ocena</string>
+    <string name="add">Dodaj</string>
+    <string name="subject">Przedmiot</string>
+    <string name="choose_subject">Wybierz przedmiot</string>
+    <string name="subject_in">Ten przedmiot jest już wpisany.</string>
+    <string name="not_chosen">NIE WYBRANO</string>
+    <string name="bad_date">Zły format daty</string>
+
+    <string name="priorities">Priorytety</string>
+
+    <string name="grade">Ocena</string>
+    <string name="weight">Waga</string>
+    <string name="description">Opis</string>
+    <string name="date">Data</string>
+    <string name="breaktime">Przerwa</string>
+
+    <string name="delete_config">Usuń pliki konfiguracyjne</string>
+    <string name="config_deleted">Usunięto pliki konfiguracyjne.</string>
+    <string name="study_hours">Godziny na naukę</string>
+
+    <string name="monday">Poniedziałek</string>
+    <string name="tuesday">Wtorek</string>
+    <string name="wednesday">Środa</string>
+    <string name="thursday">Czwartek</string>
+    <string name="friday">Piątek</string>
+
+    <string name="next">Dalej</string>
+    <string name="or">LUB</string>
+    <string name="nan">Brak</string>
+</resources>
