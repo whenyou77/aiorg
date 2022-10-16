@@ -83,24 +83,20 @@ fun vulcan(mail: String, pass: String, symbol: String, ash: Ash)
         var exams = sdk.getExams(nowDate, nowDate.plusDays(5))
 
         exams.forEach {
-            var subjectInt = 0
-            for (n in 0 until timetableFull.lessons.size)
-            {
-                if (it.subject == timetableFull.lessons[n].subject)
-                {
-                    subjectInt = n
-                    break
-                }
-            }
+            var subjectInt = -1
 
-            ash.userData.exams.add(
-                // TODO() val input_weight: Int = [Zapytaj uytkownika jaka waga sprawdzianu]
+            if (ash.userData.subjects.contains(it.subject))
+                subjectInt = ash.userData.subjects.indexOf(it.subject)
 
-            Exam(
-                subjectInt, 1, Date.from(it.date.atZone(ZoneId.systemDefault()).toInstant()), it.description
+            if (subjectInt != -1)
+                ash.userData.exams.add(
+                    // TODO() val input_weight: Int = [Zapytaj uytkownika jaka waga sprawdzianu]
 
+                Exam(
+                    subjectInt, 1, Date.from(it.date.atZone(ZoneId.systemDefault()).toInstant()), it.description
+
+                    )
                 )
-            )
         }
 
     }
