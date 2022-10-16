@@ -48,6 +48,7 @@ class SetupMethod(private val a: Ash) : Screen(a) {
         manualButton.setTextColor(-2039584)
         manualButton.setBackgroundColor(-8355712)
         manualButton.text = ash.act.getString(R.string.by_hand)
+        manualButton.layoutParams = layoutParams
 
         manualButton.setOnClickListener {
             ash.showScreen(ash.manualSubjects)

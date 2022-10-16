@@ -75,7 +75,7 @@ class VulcanLogin(private val a:Ash) : Screen(a) {
         loginButton.setOnClickListener {
             ash.screen.addView(loggingText)
             ash.showScreen(this)
-            vulcan(EMAIL,PASS,SYMBOL, ash)
+            vulcan(emailInput.text.toString(), passwordInput.text.toString(), symbolInput.text.toString(), ash)
             ash.showScreen(ash.manualSubjects)
         }
 
