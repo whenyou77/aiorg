@@ -65,29 +65,19 @@ fun vulcan(mail: String, pass: String, symbol: String, ash: Ash)
         var grades = sdk.getGrades(students[0].semesters[0].semesterId)
 
         grades.first.forEach {
-            var gradeIndex = 0
+            var gradeIndex = -1
             var realDescription = ash.act.getString(R.string.nan)
-            for (n in 0 until timetableFull.lessons.size)
-            {
-                if (it.subject == timetableFull.lessons[n].subject)
-                {
-                    gradeIndex = n
-                    break
-                }
-            }
-            if (it.description.orEmpty() != "")
-            {
-                realDescription = it.description.toString()
-            }
-            if (it.value.toDouble() != 0.0)
-            {
-                ash.userData.grades.add(
-                    Grade(
-                        gradeIndex, it.value.toDouble(), it.weightValue.toInt(), realDescription
-                    )
-                )
-            }
 
+            if (ash.userData.subjects.contains(it.subject))
+                gradeIndex = ash.userData.subjects.indexOf(it.subject)
+
+            if (it.description.orEmpty() != "")
+                realDescription = it.description.toString()
+
+            if ((it.value.toDouble() != 0.0) && (gradeIndex != -1))
+                ash.userData.grades.add(Grade(
+                    gradeIndex, it.value.toDouble(), it.weightValue.toInt(), realDescription
+                ))
         }
 
         var exams = sdk.getExams(nowDate, nowDate.plusDays(5))
