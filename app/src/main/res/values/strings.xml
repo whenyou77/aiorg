@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">AIOrg</string>
+    <string name="app_name">Pomoc Poszkolna</string>
     <string name="wassup">W jaki sposób chcesz wprowadzić dane?</string>
     <string name="vulkan_login">Zaloguj się w serwisie Vulcan</string>
     <string name="by_hand">Wprowadź dane ręcznie</string>
